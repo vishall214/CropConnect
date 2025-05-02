@@ -1,0 +1,50 @@
+.seed-subsidy-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .seed-subsidy-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .seed-subsidy-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seed-subsidy-form label {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .seed-subsidy-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .seed-subsidy-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .seed-subsidy-form button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,115 @@
+.subsidy-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .subsidy-container h1 {
+    text-align: center;
+    color: #2d5a27;
+    margin-bottom: 2rem;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .subsidy-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid #e0e0e0;
+  }
+  
+  .subsidy-card.primary {
+    transform: scale(1.05);
+    border-color: #4CAF50;
+    background: #f8fff9;
+  }
+  
+  .subsidy-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-header h2 {
+    color: #2d5a27;
+    margin-bottom: 0.5rem;
+  }
+  
+  .amount {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .card-details {
+    margin: 1.5rem 0;
+  }
+  
+  .card-details p {
+    margin: 1rem 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .radio-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #4CAF50;
+  }
+  
+  .apply-button {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 3rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .subsidy-card {
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .subsidy-card.primary {
+      transform: scale(1);
+    }
+  }
