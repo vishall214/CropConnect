@@ -9,6 +9,14 @@ import { useNavigate, Link } from 'react-router-dom';
       <form onSubmit={handleLogin}>
         <div className="form-group">
           <label htmlFor="email">Email</label>
+          <input 
+            type="email" 
+            id="email"
+            placeholder="Enter your email" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)} 
+            required 
+          />
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>
